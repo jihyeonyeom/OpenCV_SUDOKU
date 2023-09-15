@@ -93,6 +93,7 @@ sudoku_board = [[0 for _ in range(9)] for _ in range(9)]
 # 정답 값 저장 리스트
 sudoku_answer = []
 
+# 숫자 검출
 reader = easyocr.Reader(['ko'], gpu=False)
 box_size = 50
 for row in range(9):
